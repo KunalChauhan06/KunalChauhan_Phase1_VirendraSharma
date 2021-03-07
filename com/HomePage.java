@@ -1,7 +1,7 @@
 package company.Lockers.com;
 public class HomePage {
 
-	final static String PATHNAME="C:\\Users\\kunal chauhan\\eclipse-workspace\\Core Java\\src\\company\\Lockers";
+	final static String PATHNAME="C:\\Users\\kunal chauhan\\eclipse-workspace\\Core Java\\src\\company\\Lockers\\";
 	
 	
 	public static void main(String[] args) {

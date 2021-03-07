@@ -29,7 +29,7 @@ public class Files {
 		}
 	}
 	void addFile(String filename) throws IOException {
-		File file = new File("C:\\Users\\kunal chauhan\\eclipse-workspace\\Core Java\\src\\company\\Lockers"+filename);
+		File file = new File("C:\\Users\\kunal chauhan\\eclipse-workspace\\Core Java\\src\\company\\Lockers\\"+filename);
 		
 		if(file.createNewFile())
 			System.out.println("    File \""+filename+"\" added to "+ pathname + "\n");
@@ -40,7 +40,7 @@ public class Files {
 	}
 	
 	void deleteFile(String filename){
-		File file= new File("C:\\Users\\kunal chauhan\\eclipse-workspace\\Core Java\\src\\company\\Lockers"+filename);
+		File file= new File("C:\\Users\\kunal chauhan\\eclipse-workspace\\Core Java\\src\\company\\Lockers\\"+filename);
 		
 		if(file.delete())
 			System.out.println("   File \" "+filename+"\" deleted from "+ pathname +"\n");
@@ -49,7 +49,7 @@ public class Files {
 	}
 	
 	void searchFile(String filename){
-		File file= new File("C:\\Users\\kunal chauhan\\eclipse-workspace\\Core Java\\src\\company\\Lockers"+filename);
+		File file= new File("C:\\Users\\kunal chauhan\\eclipse-workspace\\Core Java\\src\\company\\Lockers\\"+filename);
 		
 		if(file.exists())
 			System.out.println("   FOUND : File \""+filename+ "\" exits at "+ pathname+ "\n");
